@@ -27,5 +27,20 @@ class PizzaStoreAdapter(val mContext: Context, resId:Int, val mList:ArrayList<Pi
         return row
     }
 
+    override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
+        var tempRow = convertView
+        tempRow?.let {
+
+        }.let {
+            tempRow = inf.inflate(R.layout.pizza_store_item, null)
+        }
+
+        val row = tempRow!!
+
+//        실제 데이터 반영 코드 작업 필요
+
+        return row
+    }
+
 
 }

@@ -8,17 +8,18 @@ class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setValues()
         setupEvents()
+        setValues()
+
     }
 
 
     override fun setupEvents() {
-        TODO("Not yet implemented")
+
     }
 
     override fun setValues() {
-        TODO("Not yet implemented")
+
     }
 
 

@@ -22,13 +22,27 @@
         android:spinnerMode="dropdown"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 피자 가게"
+        android:layout_marginTop="15dp"
+        />
+
+    <Spinner
+        android:layout_marginTop="5dp"
+        android:id="@+id/pizzaSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
 
     <Button
         android:id="@+id/okBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="최종 확정"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        />
 
 
 
